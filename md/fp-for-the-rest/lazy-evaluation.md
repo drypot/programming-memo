@@ -1,4 +1,4 @@
-Lazy Evaluation / 지연 평가
+# Lazy Evaluation / 지연 평가
 
 Lazy (or delayed) evaluation is an interesting technique that becomes possible once we adopt a functional philosophy. We've already seen the following piece of code when we were talking about concurrency:
 

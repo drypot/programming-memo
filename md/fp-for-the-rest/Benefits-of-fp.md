@@ -28,7 +28,7 @@ Walking through the stack you look at arguments passed to functions and their re
 
 스택을 검토하면서 펑션에 넘겨진 인자나 리턴값을 볼 수 있습니다. 리턴값이 잘못되었다면 문제가 된 펑션안으로 들어가서 펑션을 검토합니다. 버그의 원인에 닿을 때까지 이 과정을 재귀적으로 반복하면 끝입니다.
 
-# Concurrency / 병렬처리
+## Concurrency / 병렬처리
 
 A functional program is ready for concurrency without any further modifications. You never have to worry about deadlocks and race conditions because you don't need to use locks! No piece of data in a functional program is modified twice by the same thread, let alone by two different threads. That means you can easily add threads without ever giving conventional problems that plague concurrency applications a second thought!
 

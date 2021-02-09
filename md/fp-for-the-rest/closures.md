@@ -1,7 +1,4 @@
-Closures / 클로저, 묶음
-2011-09-26
-
-원문: http://www.defmacro.org/ramblings/fp.html
+# Closures / 클로저, 묶음
 
 So far we've discussed features in the context of "pure" functional languages - languages that are implementations of lambda calculus and don't include features that conflict with Church's formalism. However, many of the features of functional languages are useful outside of lambda calculus framework. While an implementation of an axiomatic system is useful because it allows thinking about programs in terms of mathematical expressions, it may or may not always be practical.
 
